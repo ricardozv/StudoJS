@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Estudo de javascript</title>
+        <meta charset = "utf-8">
+    </head>
+    <body>
+        <h1>Lógica com javascript!</h1>
+        <script>
+             alert('Somando + 1 a cada um segundo, usando SeTimeout e setInterval');
+
+            var n = 0;
+            function somaUm() {
+                console.log('n', ++n);
+            }
+
+            setTimeout(somaUm, 1000);
+
+            setInterval(somaUm, 1000);
+
+
+        </script>
+
+    </body>
+
+    
+</html>
